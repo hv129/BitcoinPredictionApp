@@ -2,8 +2,11 @@
 
 
 ### Saving the Neural Network Model to JSON
-We have trained our LSTM model on the extended 6 year Bitcoin Price dataset. The model is then converted to JSON format and written to model.json in the local directory. The network weights are written to model.h5 in the local directory.
-The model and weight data is loaded from the saved files and a new model is created.
+We have trained our LSTM model on the extended 6 year Bitcoin Price dataset. The model is then converted to JSON format and written to model.json in the local directory. The network weights are written to model.h5 in the directory.
+
+![modelsave](images/json.png)
+
+The model and weight data is loaded from the saved files and a new model is created in BitcoinPredictionApp.py.
 
 
 ### Directory Structure
